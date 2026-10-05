@@ -1,0 +1,3 @@
+Godot Engine: MIT license, https://godotengine.org/license/
+Font: see LICENSES/font-OFL.txt.
+Prototype assets: original project artwork; provenance is in assets asset logs.

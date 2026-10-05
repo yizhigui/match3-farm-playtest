@@ -1,0 +1,7 @@
+/*
+  Cache-Control: no-cache
+  X-Content-Type-Options: nosniff
+/*.wasm
+  Content-Type: application/wasm
+/*.pck
+  Content-Type: application/octet-stream

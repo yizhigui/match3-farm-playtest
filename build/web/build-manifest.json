@@ -1,0 +1,59 @@
+{
+  "version": "0.1.1-web-playtest",
+  "godot": "4.7.2.stable.steam.ed1daf0bf",
+  "preset": "Web Playtest",
+  "release": true,
+  "threads": false,
+  "files": [
+    {
+      "path": "_headers",
+      "size_bytes": 159,
+      "sha256": "95467abf9bf85d93ae021915bbf1049a5f8e55d633b4495296c384299b494f0b"
+    },
+    {
+      "path": "index.audio.position.worklet.js",
+      "size_bytes": 2973,
+      "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
+    },
+    {
+      "path": "index.audio.worklet.js",
+      "size_bytes": 7298,
+      "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
+    },
+    {
+      "path": "index.html",
+      "size_bytes": 6470,
+      "sha256": "3b8843b8eefbdbef29d82447859766228046238412d2065deae99a18fab63790"
+    },
+    {
+      "path": "index.js",
+      "size_bytes": 279815,
+      "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
+    },
+    {
+      "path": "index.pck",
+      "size_bytes": 11478448,
+      "sha256": "9c5a66481ba178ac6b287ced43558abb56d395758f95c6b50fd6b84ef17599b2"
+    },
+    {
+      "path": "index.png",
+      "size_bytes": 21443,
+      "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
+    },
+    {
+      "path": "index.wasm",
+      "size_bytes": 39514754,
+      "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
+    },
+    {
+      "path": "LICENSES/font-OFL.txt",
+      "size_bytes": 4388,
+      "sha256": "1c05c68c34f9708415aada51f17e1b0092d2cea709bf4a94cd38114f9e73d7d9"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.txt",
+      "size_bytes": 176,
+      "sha256": "d2ef3bd67493bd234e2be8cc6b0a83443a68014142141bc13e32b177e0643415"
+    }
+  ]
+}
