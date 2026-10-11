@@ -1,0 +1,17 @@
+{
+  "game_version": "0.1.2-web-playtest",
+  "build_time": "2026-10-11T14:24:10+09:00",
+  "git_commit": "30f166c39e325d8bce28ad47b4be63c3b0dfc231",
+  "git_dirty": true,
+  "source_sha256": "954e8304a328665dca98e54e405529133f3b339f230f62a50da7eaf0675e2dae",
+  "pck_sha256": "dda7b85651ffe21bd7679356fa0c27813d6499888d175afeea91e51bddbb1470",
+  "web_build_sha256": "480abb6c004962c8e1fce6b04b3145aeabde0045b24b4121c71d57fe25a44c8d",
+  "web_build_hash_scope": "SHA256 of canonical JSON (sorted keys, compact separators) of sorted payload path/size_bytes/sha256 records; excludes build_info.json, build-manifest.json and .nojekyll",
+  "godot": "4.7.2.stable.steam.ed1daf0bf",
+  "runtime_prefix": "index-0.1.2-web-playtest-dda7b85651ff",
+  "features": [
+    "UI261010",
+    "PageB_Market_Web",
+    "12_types_12_cards_144_total_48_triples"
+  ]
+}

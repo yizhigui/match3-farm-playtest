@@ -27,6 +27,15 @@ def verify(folder):
                 "index.audio.worklet.js", "index.audio.position.worklet.js"]
     if not set(required).issubset(checked) or manifest["threads"]:
         raise RuntimeError("Incomplete or threaded export")
+    info_path = folder / "build_info.json"
+    if info_path.is_file():
+        info = json.loads(info_path.read_text(encoding="utf-8"))
+        payload = [record for record in manifest["files"] if record["path"] != "build_info.json"]
+        aggregate = hashlib.sha256(json.dumps(payload, sort_keys=True, separators=(",", ":")).encode()).hexdigest()
+        if info["game_version"] != manifest["version"] or info["web_build_sha256"] != aggregate:
+            raise RuntimeError("Build identity or aggregate payload hash mismatch")
+        if info["pck_sha256"] != hashlib.sha256((folder / "index.pck").read_bytes()).hexdigest():
+            raise RuntimeError("Build PCK hash mismatch")
     html = (folder / "index.html").read_text(encoding="utf-8")
     config = json.loads(re.search(r"const GODOT_CONFIG\s*=\s*(\{.*?\});", html)[1])
     refs = re.findall(r'(?:src|href)=["\x27]([^"\x27]+)', html)
