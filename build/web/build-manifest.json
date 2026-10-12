@@ -1,10 +1,10 @@
 {
-  "version": "0.1.2-web-playtest",
+  "version": "0.1.3-web-playtest",
   "godot": "4.7.2.stable.steam.ed1daf0bf",
   "preset": "Web Playtest",
   "release": true,
   "threads": false,
-  "runtime_prefix": "index-0.1.2-web-playtest-dda7b85651ff",
+  "runtime_prefix": "index-0.1.3-web-playtest-febf321b9558",
   "files": [
     {
       "path": "_headers",
@@ -14,35 +14,35 @@
     {
       "path": "build_info.json",
       "size_bytes": 855,
-      "sha256": "b45515ca9601427c4744b0aad1b9101e6bdcd7d8088403265ed1e2cb00bd9b50"
+      "sha256": "b11fe4fb6e46389a7142ea3e5426afa2b534904378e9076b2e662716225c12e8"
     },
     {
-      "path": "index-0.1.2-web-playtest-dda7b85651ff.audio.position.worklet.js",
+      "path": "index-0.1.3-web-playtest-febf321b9558.audio.position.worklet.js",
       "size_bytes": 2973,
       "sha256": "be33985bc7160d6bf9646f259cd86b259cd67b02ccb297ee5c44f8ac84327bc8"
     },
     {
-      "path": "index-0.1.2-web-playtest-dda7b85651ff.audio.worklet.js",
+      "path": "index-0.1.3-web-playtest-febf321b9558.audio.worklet.js",
       "size_bytes": 7298,
       "sha256": "5b476a9c9ce642c0ee4256436d1bc31d9c38f868aca0f9a8e2a57c18d2dec2a3"
     },
     {
-      "path": "index-0.1.2-web-playtest-dda7b85651ff.js",
+      "path": "index-0.1.3-web-playtest-febf321b9558.js",
       "size_bytes": 279815,
       "sha256": "33c94cb3175f3333b82e2a3be5e8e86f77986f0aa2042b1631f6367a4e5bb6ba"
     },
     {
-      "path": "index-0.1.2-web-playtest-dda7b85651ff.pck",
-      "size_bytes": 12177200,
-      "sha256": "dda7b85651ffe21bd7679356fa0c27813d6499888d175afeea91e51bddbb1470"
+      "path": "index-0.1.3-web-playtest-febf321b9558.pck",
+      "size_bytes": 12179552,
+      "sha256": "febf321b9558d3d2faa944a21d6ff45e3f08cd4ce02c8dbb5f35d373f03bb3ec"
     },
     {
-      "path": "index-0.1.2-web-playtest-dda7b85651ff.png",
+      "path": "index-0.1.3-web-playtest-febf321b9558.png",
       "size_bytes": 21443,
       "sha256": "3cb4495c0b98dfbe4b663cbf2b6836473572339beb66d902367893162a70be0e"
     },
     {
-      "path": "index-0.1.2-web-playtest-dda7b85651ff.wasm",
+      "path": "index-0.1.3-web-playtest-febf321b9558.wasm",
       "size_bytes": 39514754,
       "sha256": "fc74679e3b97f76878947fcd4fbe1268cbfa6188182a2e33bbc3f5dc9bfa57d0"
     },
@@ -59,7 +59,7 @@
     {
       "path": "index.html",
       "size_bytes": 6908,
-      "sha256": "252f923008a7d3e5110ecb48f0c6ab8eefff8ec43a9e7182096952b7419087c5"
+      "sha256": "1a107d5e1abb2b2772080538ea4526ae6c8aceefcee408b165a1380c1a867c4a"
     },
     {
       "path": "index.js",
@@ -68,8 +68,8 @@
     },
     {
       "path": "index.pck",
-      "size_bytes": 12177200,
-      "sha256": "dda7b85651ffe21bd7679356fa0c27813d6499888d175afeea91e51bddbb1470"
+      "size_bytes": 12179552,
+      "sha256": "febf321b9558d3d2faa944a21d6ff45e3f08cd4ce02c8dbb5f35d373f03bb3ec"
     },
     {
       "path": "index.png",
